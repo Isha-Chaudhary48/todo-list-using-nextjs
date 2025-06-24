@@ -1,9 +1,15 @@
 
 "use client"
 import {useState} from 'react'
+  type Todo = {
+    text:string;
+    completed:boolean;
+  }
 export default function Home() {
-  const [todos,setTodos] = useState([]);
+  const [todos,setTodos] = useState<Todo[]>([]);
   const [input, setInput] = useState('')
+
+
 
   function addTodos(){
     if(input.trim() === '') return;
