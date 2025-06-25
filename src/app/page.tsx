@@ -33,7 +33,7 @@ export default function Home() {
     <> 
     
     <div className="h-[100vh] flex justify-center items-center flex-col">
-      <div className="bg-[#FFEC99] min-h-[70%] rounded-2xl flex justify-centers items-center flex-col h-auto w-[600px]">
+      <div className="bg-[#FFEC99] min-h-[70%] rounded-2xl flex justify-centers items-center flex-col h-auto w-[600px] pb-5">
       <h1 className="text-3xl  text-black mt-10">TODO LIST</h1>
 <form onSubmit={addTodos}>
     <div className="mt-20" >
